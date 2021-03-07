@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rating</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <button onclick="one()" onhover="gray()">Homepage</button><br>
+        <button onclick="two()">Chess Rules</button><br>
+        <button onclick="three()">Chess History</button><br>
+        <button onclick="four()">Rating System</button><br>
+        <button onclick="five()">World Champions</button><br>
+    </div>
+
+    <div class="rules">
+        <p class="top">Chess Rating</p>
+        <hr>
+        <p>This first standard rating systems only started to emerge in the 20th century. A chess rating is a tool that makes it easy to measure a player's probable performance against another opponent. It is expressed by a number that can go from 100 to (theoretically) infinity. </p>
+        <p> While there are many different rating systems, the most popular one is the ELO system, used my FIDE (World Chess Federation).</p>
+        <table>
+            <tr>
+                <th>Rating</th>
+                <th>Category/Title</th>
+            </tr>
+            <tr>
+                <td>2700+</td>
+                <td>World Champion Contenders</td>
+            </tr>
+            <tr>
+                <td>2500-2700</td>
+                <td>most Grandmasters (GM)</td>
+            </tr>
+            <tr>
+                <td>2400-2500</td>
+                <td>most International Masters (IM) and some Grandmasters(GM)</td>
+            </tr>
+            <tr>
+                <td>2300-2400</td>
+                <td>FIDE Masters (FM)</td>
+            </tr>
+            <tr>
+                <td>2200-2300</td>
+                <td>FIDE Candidate Masters (CM)</td>
+            </tr>
+            <tr>
+                <td>2000-2200</td>
+                <td>Candidate Masters/Experts</td>
+            </tr>
+            <tr>
+                <td>1800-2000</td>
+                <td>Class A / Category 1</td>
+            </tr>
+            <tr>
+                <td>1600-1800</td>
+                <td>Class B / Category 2</td>
+            </tr>
+            <tr>
+                <td>1400-1600</td>
+                <td>Class C / Category 3</td>
+            </tr>
+            <tr>
+                <td>1200-1400</td>
+                <td>Class D / Category 4</td>
+            </tr>
+            <tr>
+                <td>Below 1200</td>
+                <td>Novices</td>
+            </tr>
+        </table>
+        <br>
+        <p>The following shows the number of players with each FIDE rating from 2019</p>
+        <img src="https://www.sparkchess.com/cms/media/fide-ratings.png">
+        <br>
+        <h2>Some Interesting Chess Rating Facts</h2>
+        <div class="listc">
+            <ul>
+                <li>The person who became the youngest chess grandmaster is Sergey Karjakin Ukraine who became a grandmaster at 12 years, 7 months, 0 days.</li>
+                <li>The peak chess rating ever achived by a person was 2882 by Magnus Carlsen in 2014.</li>
+                <li>The rating of chess engines are much higher than that of humans with Stockfish having an estimated rating of 3600</li>
+            </ul>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

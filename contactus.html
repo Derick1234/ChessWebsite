@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class="aboutus">
+
+    <div class="sidebar">
+        <button onclick="one()" onhover="gray()">Homepage</button><br>
+        <button onclick="two()">Chess Rules</button><br>
+        <button onclick="three()">Chess History</button><br>
+        <button onclick="four()">Rating System</button><br>
+        <button onclick="five()">World Champions</button><br>
+    </div>
+
+    <div class="rules">
+        <p class="top">Contact Us</p>
+        <hr>
+        <div class="form">
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter First Name">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter Last Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="mail" placeholder="Enter Email">
+
+                <label for="comment">Comment</label>
+                <textarea id="comment" placeholder="Enter Comment"></textarea>
+
+                <input type="submit" value="Submit" onclick="validation()"> 
+
+            </form>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

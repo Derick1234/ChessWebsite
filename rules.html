@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rules</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <button onclick="one()" onhover="gray()">Homepage</button><br>
+        <button onclick="two()">Chess Rules</button><br>
+        <button onclick="three()">Chess History</button><br>
+        <button onclick="four()">Rating System</button><br>
+        <button onclick="five()">World Champions</button><br>
+    </div>
+    
+    <div class="rules">
+        
+        <p class="top">Chess Rules</p>
+        <hr>
+        <h1>Setting up the chessboard</h1>
+        <p>The chessboard is made up of eight rows and eight columns for a total of 64 squares of alternating colors. Each square of the chessboard is identified with a unique pair of a letter and a number. The vertical files are labeled a through h, from White´s left (i.e. the queenside) to White´s right. Similarly, the horizontal ranks are numbered from 1 to 8, starting from the one nearest White´s side of the board. Each square of the board, then, is uniquely identified by its file letter and rank number. In the initial position setup, the light queen is positioned on a light square and the dark queen is situated on a dark square. The gif below shows how the pieces should be initially situated.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpkX414z.gif">   
+        <h1>How pieces move</h1>
+        <h2>King</h2>
+        <p>The king can move exactly one square horizontally, vertically, or diagonally. At most once in every game, each king is allowed to make a special move, known as castling.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpHLaEcZ.gif">
+        <h2>King</h2>
+        <p>The can move any number of vacant sqaures diagonally, vertically or horizontally.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpgpXYlQ.gif">
+        <h2>Rook</h2>
+        <p>The rook can move any number of vacant sqaures horizontally or vertically.</p>  
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpHlPkaE.gif">
+        <h2>Bishop</h2>
+        <p>The bishop can move any number of vacant sqaures diagonally.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpOYVVvo.gif">
+        <h2>Knight</h2>
+        <p>The knight can move in the shape of an L, one or two sqaures forward and then two or one sqaures at a 90 degree angle respectively. It can also jump over pieces.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpMl2vJy.gif">
+        <h2>Pawns</h2>
+        <p>Pawns can move forward one square, if that square is unoccupied. If it has not yet moved, the pawn has the option of moving two squares forward provided both squares in front of the pawn are unoccupied. A pawn cannot move backward. Pawns are the only pieces that capture differently from how they move. They can capture an enemy piece on either of the two spaces adjacent to the space in front of them (i.e., the two squares diagonally in front of them) but cannot move to these spaces if they are vacant. The pawn is also involved in the two special moves en passant and promotion.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpHVosJK.gif">
+        <br>
+        <h1>Special Rules</h1>
+        <h2>Pawn Promotion</h2>
+        <p>Pawns have another special ability and that is that if a pawn reaches the other side of the board it can become any other chess piece (called promotion) excluding a king (or pawn, for that matter).</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/php2sp106.gif">
+        <h2>En Passant</h2>
+        <p>If a pawn moves out two squares on its first move, and by doing so lands to the side of an opponent's pawn (effectively jumping past the other pawn's ability to capture it), that other pawn has the option of capturing the first pawn as it passes by.</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpPbxgAU.gif">
+        <br>
+        <h1>Some Additional Rules</h1>
+        <h2>Castling</h2>
+        <p>Castling is the only time in the chess game when more than one piece moves during a turn. This chess move has been invented in the 1500´s to help speeding up the game and improving balance of the offense and defense. During the castling, the king moves two squares towards the rook he intends to castle with, and the rook moves to the square through which the king passed. Castling is only permissible if all of the following conditions hold:
+
+                Neither king nor rook involved in castling may have moved from the original position;
+                There must be no pieces between the king and the rook;   
+        The king may not currently be in check, nor may the king pass through or end up in a square that is under attack by an enemy piece (though the rook is permitted to be under attack and to pass over an attacked square)</p>
+        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/php1yeIwJ.gif">
+        
+        <p><b>White always moves first, and the player who is white is decided by random.</b></p>
+
+        <h1>How to Win</h1>
+        <p>The game ends when a player is checkmated, stalemated, runs out of time or forfeits. A player is checkmated if their king is under check by the opponent and has no other sqaure to move to. A player is statemated if the player is not in check and also has no legal move that they can make.</p>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
